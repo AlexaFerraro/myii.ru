@@ -25,22 +25,22 @@ class UserController extends  Controller
 
         $events = [
             new UserEvent([], [
-                'name'  => 'Bla bla',
-                'description'   => 'Some text',
-                'dateTimeStart'   => '2018-12-12',
-                'typeEvent'  => 'b-day',
+                'name'  => 'B-day',
+                'description'   => 'sister\'s birthday',
+                'dateTimeStart'   => '2018-12-07',
+                'typeEvent'  => 'birthday',
             ]),
             new UserEvent([], [
-                'name'  => 'Bla bla 1',
-                'description'   => 'Some text ...',
-                'dateTimeStart'   => '2018-12-12',
-                'typeEvent'  => 'b-day',
+                'name'  => 'Theater',
+                'description'   => 'King of Lir',
+                'dateTimeStart'   => '2018-12-21',
+                'typeEvent'  => 'meeting',
             ]),
             new UserEvent([], [
-                'name'  => 'Bla bla 2',
-                'description'   => 'Some text ...',
-                'dateTimeStart'   => '2018-12-12',
-                'typeEvent'  => 'b-day',
+                'name'  => 'Aqua zoo',
+                'description'   => 'aqua show',
+                'dateTimeStart'   => '2018-12-26',
+                'typeEvent'  => 'meeting',
             ]),
         ];
 
