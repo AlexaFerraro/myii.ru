@@ -53,7 +53,8 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             ),
-            ['label' => 'Events', 'url' => ['/user/events']]
+            ['label' => 'Events', 'url' => ['/user/events']],
+            ['label' => 'Calendar', 'url' => ['/calendar/show']]
         ],
     ]);
     NavBar::end();
